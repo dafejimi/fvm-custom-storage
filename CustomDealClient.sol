@@ -1,17 +1,17 @@
 /// SPDX-License-Identifier: MIT
 pragma solidity ^0.8.9;
 
-import { MarketAPI } from "@zondax/filecoin-solidity/contracts/v0.8/MarketAPI.sol";
-import { CommonTypes } from "@zondax/filecoin-solidity/contracts/v0.8/types/CommonTypes.sol";
-import { MarketTypes } from "@zondax/filecoin-solidity/contracts/v0.8/types/MarketTypes.sol";
-import { AccountTypes } from "@zondax/filecoin-solidity/contracts/v0.8/types/AccountTypes.sol";
-import { AccountCBOR } from "@zondax/filecoin-solidity/contracts/v0.8/cbor/AccountCbor.sol";
-import { MarketCBOR } from "@zondax/filecoin-solidity/contracts/v0.8/cbor/MarketCbor.sol";
-import { BytesCBOR } from "@zondax/filecoin-solidity/contracts/v0.8/cbor/BytesCbor.sol";
-import { BigNumbers } from "@zondax/filecoin-solidity/contracts/v0.8/external/BigNumbers.sol";
-import { CBOR } from "@zondax/filecoin-solidity/contracts/v0.8/external/CBOR.sol";
-import { Misc } from "@zondax/filecoin-solidity/contracts/v0.8/utils/Misc.sol";
-import { FilAddresses } from "@zondax/filecoin-solidity/contracts/v0.8/utils/FilAddresses.sol";
+import { MarketAPI } from "../contracts/customized-solidity-fvm-files/MarketAPI.sol";
+import { CommonTypes } from "../contracts/customized-solidity-fvm-files/types/CommonTypes.sol";
+import { MarketTypes } from "../contracts/customized-solidity-fvm-files/types/MarketTypes.sol";
+import { AccountTypes } from "../contracts/customized-solidity-fvm-files/types/AccountTypes.sol";
+import { AccountCBOR } from "../contracts/customized-solidity-fvm-files/cbor/AccountCbor.sol";
+import { MarketCBOR } from "../contracts/customized-solidity-fvm-files/cbor/MarketCbor.sol";
+import { BytesCBOR } from "../contracts/customized-solidity-fvm-files/cbor/BytesCbor.sol";
+import { BigNumbers } from "../contracts/customized-solidity-fvm-files/external/BigNumbers.sol";
+import { CBOR } from "../contracts/customized-solidity-fvm-files/external/CBOR.sol";
+import { Misc } from "../contracts/customized-solidity-fvm-files/utils/Misc.sol";
+import { FilAddresses } from "../contracts/customized-solidity-fvm-files/utils/FilAddresses.sol";
 // import { MarketDealNotifyParams, deserializeMarketCustomDealNotifyParams, serializeCustomDealProposal, deserializeCustomDealProposal } from "./Types.sol";
 
 contract CustomDealClient {
